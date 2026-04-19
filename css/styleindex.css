@@ -1,0 +1,209 @@
+/* ======================================== For All =========================== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.logo {
+  display: flex;
+  justify-content: center;
+}
+.logo img {
+  width: 150px;
+  height: auto;
+}
+.All_Page {
+  border: 4px solid #0ec0c3;
+}
+.footer {
+  background-color: #0ec0c3;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+/* ====================================== Destop ============================= */
+@media screen and (min-width: 678px) {
+  /* menu */
+  .menu {
+    display: flex;
+    justify-content: center;
+    background-color: #0ec0c3;
+    height: fit-content;
+  }
+  .navbar {
+    margin-bottom: 0;
+  }
+  /* Content HaGiang */
+  .HaGiang {
+    margin: 0;
+    text-align: center;
+  }
+  .landmark {
+    padding: 0 10px;
+  }
+  .landmark img {
+    width: 23vw;
+    height: auto;
+  }
+  h2 {
+    margin: 30px 0;
+    color: #0ec0c3;
+  }
+  /* Quang Ba */
+  .QuangBa {
+    margin: 0;
+  }
+  .QuangBa img {
+    width: 23vw;
+    height: 40vh;
+  }
+  .quangba_text {
+    text-align: justify;
+    font-size: large;
+    line-height: 34px;
+  }
+  .quangba_text h2 {
+    margin: 0;
+    padding-bottom: 10px;
+  }
+  .price {
+    text-align: center;
+    margin-top: 30px;
+  }
+  .price h4 {
+    color: orangered;
+  }
+  .price p {
+    background-color: #0ec0c3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin-left: 4.5vw;
+    margin-top: 20px;
+    width: 6vw;
+    height: 2.5vw;
+  }
+  /* Dong Van */
+  .DongVan {
+    margin: 0;
+  }
+  h2 {
+    text-align: center;
+  }
+  /* hotel */
+  .HOTEL {
+    display: flex;
+  }
+  .hotel img {
+    width: 46vw;
+    height: 31vw;
+    margin-right: 10px;
+    margin-right: 20px;
+  }
+  .hotel_child img {
+    width: 24vw;
+    height: auto;
+    margin-bottom: 15px;
+  }
+  /* register */
+  .register h2 {
+    text-align: center;
+  }
+  .toxam {
+    background-color: #e4e0df;
+    padding: 20px;
+    height: 31vw;
+  }
+  .register .button {
+    background-color: rgb(255, 132, 0);
+    color: white;
+    width: 5vw;
+    height: 2.5vw;
+    font-size: larger;
+  }
+}
+/* ======================================== Mobile ================================ */
+@media screen and (max-width: 678px) {
+  .navbar {
+    margin-bottom: 0;
+  }
+  /* Content HaGiang */
+  .HaGiang {
+    margin: 0;
+    text-align: center;
+  }
+  .landmark {
+    padding: 0 10px;
+  }
+
+  h2 {
+    margin: 30px 0;
+    color: #0ec0c3;
+  }
+  /* Quang Ba */
+  .QuangBa {
+    margin: 0;
+  }
+
+  .quangba_text {
+    text-align: justify;
+    font-size: large;
+    line-height: 34px;
+  }
+  .quangba_text h2 {
+    margin: 0;
+    padding-bottom: 10px;
+  }
+  .price {
+    text-align: center;
+    margin-top: 30px;
+  }
+  .price h4 {
+    color: orangered;
+  }
+
+  .price p {
+    background-color: #0ec0c3;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: medium;
+    margin-left: 37vw;
+
+    width: 20vw;
+    height: 10vw;
+  }
+
+  /* Dong Van */
+  .DongVan {
+    margin: 0;
+    flex-wrap: nowrap;
+  }
+  h2 {
+    text-align: center;
+  }
+  /* hotel */
+
+  .toxam {
+    background-color: #e4e0df;
+    padding: 20px;
+    margin-bottom: 20px;
+    height: 50vh;
+  }
+  .register button {
+    background-color: rgb(255, 132, 0);
+    color: white;
+
+    font-size: larger;
+  }
+  img {
+    width: 98%;
+    height: auto;
+
+    margin-bottom: 20px;
+  }
+}
